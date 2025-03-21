@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lakshmanan</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a; /* Dark background with a sleek modern look */
+            color: #f5f5f5; /* Light text for contrast */
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #ff5722, #c2185b); /* Gradient with bold, modern colors */
+            color: #fff;
+            text-align: center;
+            padding: 4rem 1rem;
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 3.5rem;
+            margin: 10px 0 5px;
+            color: #fff; /* White text for name */
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            opacity: 0.85;
+            color: #ffeb3b; /* Light yellow for description */
+        }
+
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+            object-fit: cover;
+            border: 5px solid #ff5722; /* Adding a border to profile image for emphasis */
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #37474f;
+            text-align: center;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #ff5722; /* Hover effect with orange color */
+        }
+
+        /* Section Styles */
+        .section-content {
+            background: #263238;
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 80%;
+            border-radius: 12px;
+            box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.6);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .section-content:hover {
+            transform: translateY(-7px);
+        }
+
+        h2 {
+            color: #ff5722; /* Lively orange for section titles */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            padding: 8px;
+        }
+
+        /* Button Styles */
+        .download-button {
+            background: linear-gradient(135deg, #ff5722, #ffeb3b);
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s ease-in-out;
+        }
+
+        .download-button:hover {
+            background: linear-gradient(135deg, #ffeb3b, #ff5722);
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #37474f;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .section-content {
+                width: 90%;
+                padding: 1.5rem;
+            }
+        }
+
+        /* About Section Styling */
+        .about-text {
+            font-size: 1.2rem;
+            color: #f5f5f5;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .about-text b {
+            color: #ff5722; /* Highlight important skills and qualifications */
+        }
+
+        .about-text i {
+            color: #ffeb3b; /* Yellow for hobbies */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Lakshmanan</h1>
+            <p>Java Coder | Software Engineer | Web Developer</p>
+            <img src="Lakshmanan.jpg" alt="Profile Picture" class="profile-image"> <!-- Profile Image -->
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p class="about-text">
+                Hello! I'm <b>Lakshmanan</b>, a passionate <i>Java Coder</i> and an aspiring <b>Software Engineer</b>.
+                I specialize in building efficient and scalable applications, with a keen interest in <b>Java</b>, <b>Web Development</b>, and <i>modern frameworks</i>.
+                Always looking for new challenges and opportunities to enhance my skills in the world of software development.
+                In my free time, I enjoy coding side projects, contributing to open-source, and playing <i>chess</i>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p><b>Bachelor of Computer Applications (BCA)</b> - Jeppiaar College of Arts & Science</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Spring Framework</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Inventory Management System</a></li>
+                <li><a href="#">Job Portal System</a></li>
+                <li><a href="#">Weather Forecasting Application</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lakshmanan. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to sections
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
